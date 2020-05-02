@@ -11,11 +11,11 @@ function init() {
             data.email = response.data.email;
             data.image = response.data.avatar_url;
 
-            fs.writeFile("README-gen.md", generateMarkdown(data), function(err, data) {
-                if (err) {
+            fs.writeFile("README-gen.md", generateMarkdown(data), function(err) {
+                if(err) {
                     throw err;
                 } else {
-                    console.log("README generated!");
+                    console.log("README.md successfully generated!")
                 }
             });
         });
