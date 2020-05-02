@@ -46,7 +46,11 @@ ${data.test}
 
 ## Questions
 
-If you have any questions about the repo, open an issue or contact [${data.name}](undefined) directly at john@codeandcreative.com.
+If you have any questions about the repo, open an issue or contact [${data.name}](undefined) directly.
+
+Email: ${data.email || "no email provided"}
+
+![image](${data.avatar_url || "no image provided"})
 `;
 }
 
