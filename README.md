@@ -2,7 +2,7 @@
 
 Creating a feasible README is essential for any project, and a missing or insufficient one is not in the best interest of anyone wanting to view one. However, sometimes it is a hassle to create one because of the larger need to write up actual code in place of describing the project. 
 
-With this app, you can create a README that will need a few edits, but also serves as a great starter template.
+With this app, you can create a README that will need a few edits, but also serves as a great starter template. The [README-gen.md](https://github.com/vxmao87/good-README-generator/blob/master/README-gen.md) is the result of running the program through the Terminal.
 
 ## Table of Contents 
 
