@@ -8,8 +8,10 @@ function init() {
     inquirer.prompt(questions).then(function(data) {
         const queryURL = `https://api.github.com/users/${data.name}`;
         axios.get(queryURL).then(function(response) {
+            console.log(response.data);
             data.email = response.data.email;
             data.image = response.data.avatar_url;
+            data.url = queryURL;
 
             fs.writeFile("README-gen.md", generateMarkdown(data), function(err) {
                 if(err) {

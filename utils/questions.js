@@ -25,6 +25,20 @@ const questions = [
         message: "Describe the usage for your project: "
     },
     {
+        type: "checkbox",
+        name: "technologies",
+        message: "List the technologies you've used: ",
+        choices: [
+            "JavaScript",
+            "CSS",
+            "HTML", 
+            "jQuery",
+            "Bootstrap",
+            "AJAX",
+            "Axios"
+        ]
+    },
+    {
         type: "list",
         name: "license",
         message: "Select which of the licenses you want for your project: ",
