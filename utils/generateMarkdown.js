@@ -1,3 +1,4 @@
+// This will be the exact text that prints in the README.md file.
 function generateMarkdown(data) {
   return `
 # ${data.title}
@@ -25,8 +26,6 @@ ${data.description}
 
 ## Installation
 
-To install necessary dependencies, run the following command:
-
 ${data.installation}
 
 ## Usage
@@ -51,7 +50,7 @@ ${data.test}
 
 ## Questions
 
-If you have any questions about the repo, open an issue or contact [${data.name}](${data.url}) directly.
+If you have any questions about the repo, open an issue or contact [${data.name}](https://github.com/${data.name}) directly.
 
 Email: ${data.email || "no email provided"}
 

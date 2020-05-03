@@ -1,3 +1,4 @@
+// All questions are printed here.
 const questions = [
     {
         type: "input",
